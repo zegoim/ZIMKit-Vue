@@ -1,0 +1,17 @@
+export enum event {
+  zimError = 'error',
+  zimConnectionStateChanged = 'connectionStateChanged',
+  zimTokenWillExpire = 'tokenWillExpire',
+  zimReceivePeerMessage = 'receivePeerMessage',
+  zimReceiveGroupMessage = 'receiveGroupMessage',
+  zimConversationTotalUnreadMessageCountUpdated = 'conversationTotalUnreadMessageCountUpdated',
+  zimConversationChanged = 'conversationChanged',
+  zimKitDeleteConversation = 'deleteConversation',
+  zimKitCurrentConversationUpdate = 'currentConversationUpdate',
+  zimKitConversationListUpdate = 'currentConversationListUpdate',
+  zimKitCreateGroup = 'createGroup',
+  zimKitCurrentChatUpdated = 'currentChatUpdated',
+  zimKitCurrentMessageListUpdated = 'messageListUpdated',
+  zimKitIsLoggedIn = 'isLoggedIn',
+  zimKitLoginUserUpdate = 'loginUserUpdate',
+}
